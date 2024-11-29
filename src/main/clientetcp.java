@@ -57,6 +57,9 @@ public class clientetcp {
             this.salida = new DataOutputStream(cliente.getOutputStream());
             String mensaje;
             while (true) {
+                cambioparagit c = new cambioparagit();
+                c.mensaje();
+                System.out.println("");
             System.out.println("Ingresa una palabra: ");
             mensaje = sc.nextLine();
 
